@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Contact information page of The Little Taco Shop">
-    <title>My First WebPage</title>
+    <title>contacts lts</title>
     <link rel="icon" href="images/favicon.ico">
     <link rel="stylesheet" href="CSS/style.css">
 </head>
@@ -36,9 +36,43 @@
             <figcaption>Little Tacos Shop Tacoss</figcaption>
         </figure>
     </header>
-    <hr>
     <main>
-
+        <h2>Our Contact Form</h2>
+        <section>
+            <form action="https://httpbin.org/get">
+                <fieldset>
+                    <legend>Send Us a Message</legend>
+                    <p>
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" placeholder="your name" required>
+                    </p>
+                    <p>
+                        <label for="email" id="">Email:</label>
+                        <input type="text" id="email" name="email" required>
+                    </p>
+                    <p>
+                        <label for="message">Your Message:</label><br>
+                        <textarea id="message" name="message" rows="10" cols="30" placeholder="Type your message here!" required></textarea>
+                    </p>
+                </fieldset>
+                <p>
+                    <button type="submit">Send</button>
+                    <button type="reset">Reset</button>
+                </p>
+            </form>
+        </section>
+        
+        <section>
+            <address>
+                <h2>Our Location</h2>
+                200 University Road off University of Nigeria by<br>
+                filling station Nsukka Enugu State, Nigeria.
+                <br><br>
+                Phone: <a href="tel:123456789">+123-456-789</a>
+            </address>
+        </section>
+        <br>
+        <a href="#">Back to Top</a>
     </main>
     <hr>
     <footer>
