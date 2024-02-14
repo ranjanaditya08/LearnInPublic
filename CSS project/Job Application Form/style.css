@@ -1,0 +1,30 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ccc;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 900px;
+}
+
+.apply_box {
+    max-width: 600px;
+    margin: 0 auto;
+    margin-top: 50px;
+    background-color: white;
+    box-shadow: 4px 3px 5px rgba(1, 1, 1, 0.1);
+    border-radius: 25px;
+}
+
+#title_small {
+    font-size: 20px;
+}
+.form_container {
+    margin: 10px auto;
+}
