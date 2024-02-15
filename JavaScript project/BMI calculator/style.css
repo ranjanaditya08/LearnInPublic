@@ -1,0 +1,94 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.container {
+  max-height: 100vh;
+}
+.bmi_container{
+    margin: 80px;
+    border: none;
+}
+.bmi_canvas {
+  height: 200px;
+  width: 500px;
+  background-image: url(bgc.PNG);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+h1, #chart {
+  font-family: serif;
+  font-weight: 100;
+  margin-bottom: 20px;
+}
+h3 {
+  border: 1px solid;
+  padding: 7px;
+  background-color: #30abdc;
+  color: #fff;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+form {
+  display: flex;
+}
+.form_control {
+  display: flex;
+  flex-direction: column;
+  margin: 30px;
+}
+input,
+button {
+  height: 35px;
+  width: 100px;
+}
+input::placeholder {
+  font-size: 15px;
+  padding: 7px;
+}
+label {
+  margin-bottom: 6px;
+  font-family: sans-serif;
+}
+button {
+  margin-top: 26px;
+  background-color: #fc8d06;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 600;
+  border-radius: 3px;
+  border: none;
+}
+table, tr, td{
+  border: 0.1px solid;
+  border-color: #c9c6c6;
+  height: 50px;
+  width: 700px;
+}
+thead{
+  background-color: #30abdc;
+  color: #fff;
+  font-size: 25px;
+  font-family: sans-serif;
+}
+tr {
+  font-size: 17px;
+}
+td{
+  padding-left: 10px;
+}
+.table_container{
+  margin-left: 80px;
+}
+.details{
+  margin-top: 15px;
+  font-size: 20px;
+}
+#result{
+  height: 40px;
+  font-size: 35px;
+  font-family: sans-serif;
+  color:#1078a1;
+  margin-left: 200px;
+}
