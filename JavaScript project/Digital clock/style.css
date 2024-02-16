@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #eff2f2;
+    background-image: url(blue-wall-background.jpg);
+}
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+.clock_container{
+    margin-top: 200px;
+}
+h3{
+    color: rgb(126, 125, 125);
+    font-size: 15px;
+    font-family: sans-serif;
+    text-align: center;
+}
+.time{
+    font-size: 150px;
+    font-family: sans-serif;
+}
+.date{
+    text-align: center;
+    font-size: 20px;
+    color: #3a4d4d;
+    font-weight: 500;
+    font-family: sans-serif;
+}
