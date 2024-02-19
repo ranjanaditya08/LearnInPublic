@@ -20,6 +20,17 @@ h1{
     height: 400px;
 }
 #start, #stop{
-    height: 100px;
-    width: 100px;
+    margin-left: 40px;
+    height: 40px;
+    width: 80px;
+    font-size: 20px;
+    font-family: sans-serif;
+    border-radius: 15px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+#start{
+    background-color: rgb(18, 196, 18);
+}
+#stop{
+    background-color: rgb(238, 88, 88);
 }
