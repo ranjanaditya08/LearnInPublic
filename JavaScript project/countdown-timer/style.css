@@ -8,21 +8,34 @@
 body {
   font-family: "Poppins", sans-serif;
   background-image: url(snow.avif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   min-height: 100vh;
 }
 h1 {
     font-size: 4rem;
-    margin-top: -10rem;
+    margin-top: 8rem;
+    margin-bottom: 6rem;
+    background-image: url(firework.gif);
+    background-clip: text;
+    background-size: contain;
+    color: transparent;
 }
 .countdown-container{
     display: flex;
+    flex-wrap: wrap;
+    text-align: center;
 }
 .big-text{
     font-size: 6rem;
-    line-height: 1;
+    line-height: 0.8;
     margin: 0 2rem;
+    color: rgb(98, 98, 98);
+    margin-bottom: 1.2rem;
+  
 }
+
