@@ -79,7 +79,7 @@ function getSelectedRadioBtn() {
     }
   });
   return answer;
-}
+};
 
 function deselectRadioBtn() {
   answerEls.forEach((answerEl) => {
@@ -89,6 +89,7 @@ function deselectRadioBtn() {
 
 submitBtn.addEventListener("click", () => {
   const answer = getSelectedRadioBtn();
+  
 
   if (answer) {
     if (answer === quizData[currentQuiz].correct) {
