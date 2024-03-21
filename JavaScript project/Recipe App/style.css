@@ -35,7 +35,8 @@ header {
 }
 
 header input {
-  background-color: #eee;
+  font-family: inherit;
+  background-color: #e3e3e0;
   border: none;
   border-radius: 5px;
   padding: 0.5rem 1rem;
@@ -43,15 +44,16 @@ header input {
 
 header button {
   background-color: transparent;
-  color: #aaa;
+  color: #908d8d;
   border: none;
   font-size: 1.3rem;
   margin-left: 10px;
 }
 
 .fav_container {
+  text-align: center;
   padding: 1rem;
-  background-color: #e8eaf3;
+  background-color: #f0f4d9;
 }
 
 .fav_meals {
@@ -89,20 +91,43 @@ header button {
 }
 
 .meal_header {
-    position: relative;
+  position: relative;
 }
 
-.meal_header .random{
-    padding: .25rem 0.5rem;
-    position: absolute;
-    top: 10px;
-    background-color: #fff;
-    border-top-right-radius: 3px;
-    border-bottom-right-radius: 3px;
+.meal_header .random {
+  padding: 0.25rem 1rem;
+  position: absolute;
+  top: 1rem;
+  background-color: #fff;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
 }
 
 .meal_header img {
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
 }
 
 .meal_body {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem;
+}
+
+.meal_body h4 {
+  margin: 0;
+}
+
+.meal_body .fav_btn {
+  border: none;
+  background-color: transparent;
+  color: rgb(197, 188, 188);
+  cursor: pointer;
+  font-size: 1.2rem;
+}
+
+.meal_body .fav_btn.active {
+  color: #68a1e3;
 }
